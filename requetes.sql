@@ -15,7 +15,12 @@ SELECT marques.IDMarque, marques.NomMarque, voiture.Marque, voiture.Nom
 FROM marques, voiture
 WHERE marques.IDMarque = voiture.Marque
 
--- join de 2 tables avec égalité sur les ID
+-- join (jointure) de 2 tables avec égalité sur les ID
 SELECT marques.IDMarque, marques.NomMarque, voiture.Marque, voiture.Nom
+FROM marques, voiture
+WHERE marques.IDMarque = voiture.Marque
+
+--Même chose sans l'affichage des IDs
+SELECT marques.NomMarque, voiture.Nom
 FROM marques, voiture
 WHERE marques.IDMarque = voiture.Marque
