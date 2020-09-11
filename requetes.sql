@@ -8,4 +8,8 @@ SELECT * FROM voiture;
 --Liste triée des noms des marques
 SELECT marques.NomMarque
 FROM marques
-WHERE marques.NomMarque = '';
+ORDER BY marques.NomMarque ASC
+
+-- xxxx de table
+SELECT marques.IDMarque, marques.NomMarque, voiture.Marque, voiture.Nom
+FROM marques, voiture;
