@@ -30,3 +30,8 @@ SELECT voiture.Puissance, voiture.Nom
 FROM voiture
 WHERE voiture.Puissance > '300';
 ORDER BY Puissance ASC
+
+--Quelle est la voiture la moins chère ?
+SELECT voitures.Nom FROM voiture
+ORDER BY Prix ASC
+Limit 1
