@@ -29,3 +29,4 @@ WHERE marques.IDMarque = voiture.Marque
 SELECT voiture.Puissance, voiture.Nom
 FROM voiture
 WHERE voiture.Puissance > '300';
+ORDER BY Puissance ASC
