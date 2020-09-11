@@ -24,3 +24,8 @@ WHERE marques.IDMarque = voiture.Marque
 SELECT marques.NomMarque, voiture.Nom
 FROM marques, voiture
 WHERE marques.IDMarque = voiture.Marque
+
+--Liste triée des voiture de plus 300cv
+SELECT voiture.Puissance, voiture.Nom
+FROM voiture
+WHERE voiture.Puissance > '300';
