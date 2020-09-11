@@ -10,6 +10,12 @@ SELECT marques.NomMarque
 FROM marques
 ORDER BY marques.NomMarque ASC
 
--- xxxx de table
+-- produit cartésien de 2 tables
 SELECT marques.IDMarque, marques.NomMarque, voiture.Marque, voiture.Nom
-FROM marques, voiture;
+FROM marques, voiture
+WHERE marques.IDMarque = voiture.Marque
+
+-- join de 2 tables avec égalité sur les ID
+SELECT marques.IDMarque, marques.NomMarque, voiture.Marque, voiture.Nom
+FROM marques, voiture
+WHERE marques.IDMarque = voiture.Marque
