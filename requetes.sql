@@ -1,11 +1,11 @@
---Liste des voitures avec ID et nom
+-- Liste des voitures avec ID et nom
 SELECT voiture.IDVoiture, voiture.Nom
 FROM voiture;
 
---Liste des voitures avec toutes les colonnes
+-- Liste des voitures avec toutes les colonnes
 SELECT * FROM voiture;
 
---Liste triée des noms des marques
+-- Liste triée des noms des marques
 SELECT marques.NomMarque
 FROM marques
 ORDER BY marques.NomMarque ASC;
