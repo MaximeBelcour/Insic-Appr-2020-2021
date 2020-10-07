@@ -10,7 +10,21 @@
 
 <p>Autre exemple de paragraphe.</p>
 
-<p><a href="https://www.w3schools.com/">Visit W3Schools.com!</a></p>
+<!--
+insertion d'un lien
+-->
+<p><a href="https://www.w3schools.com/">Visiter W3Schools.com!</a></p>
+
+<!--
+insertion d'une image
+-->
+<img src="mustang.jpg" alt="Mustang">
+
+<!--
+Saut de ligne
+-->
+<br/>
+
 
 </body>
 </html>
