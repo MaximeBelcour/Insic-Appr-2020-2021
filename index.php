@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Page Title</title>
+<title>Apprentis 2020-2021</title>
 </head>
 <body>
 
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
+<h1>Etude du html</h1>
+<p>exemple de paragraphe.</p>
+
+<p>Autre exemple de paragraphe.</p>
+
+<p><a href="https://www.w3schools.com/">Visit W3Schools.com!</a></p>
 
 </body>
 </html>
