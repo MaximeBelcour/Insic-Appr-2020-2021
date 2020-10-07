@@ -56,6 +56,10 @@ Saut de ligne
   </tr>
 </table>
 
+<!--Code php simple-->
+<?php
+echo "<br/> Salut aux apprentis!";
+?>
 
 </body>
 </html>
