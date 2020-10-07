@@ -6,6 +6,7 @@
 </head>
 
 <body>
+
 <?php
 echo '<h2>Liste des voitures<br /><br /></h2>';
 $base = mysqli_connect ('localhost', 'root', '')
@@ -31,5 +32,6 @@ mysqli_free_result ($req);
 // Fermeture de sql
 mysqli_close ($base);
 ?>
+
 </body>
 </html>
