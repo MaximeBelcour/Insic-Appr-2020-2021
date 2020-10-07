@@ -153,5 +153,8 @@ for ($x = 1; $x <= 10; $x++) {
   </div>
 </div>
 
+<br><br>
+<p><a href="ListeVoitures.php">Liste des voitures en PHP</a></p>
+
 </body>
 </html>
