@@ -11,7 +11,7 @@ echo '<h2>Liste des voitures  présentées en tableau<br /><br /></h2>';
 $base = mysqli_connect ('localhost', 'root', '')
        or die("Impossible de se connecter : " . mysqli_error());
 mysqli_select_db ($base,'voitures') ;
-$sql = "SELECT voitures.Nom, voitures.Vitesse, voitures.Puissance, voitures.Prix FROM voitures";
+$sql = "SELECT voiture.Nom, voiture.Vitesse, voiture.Puissance, voiture.Prix FROM voiture";
 $req = mysqli_query($base,$sql) or die('Erreur SQL !<br />'.$sql.'<br />'.mysqli_error($base));
 
 // Affichage de l'entête du tableau
