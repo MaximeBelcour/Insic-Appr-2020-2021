@@ -58,8 +58,25 @@ Saut de ligne
 
 <!--Code php simple-->
 <?php
-echo "<br/> Salut aux apprentis!";
+echo "<br/> Salut aux apprentis!<br/><br/>";
+
+for ($x = 1; $x <= 10; $x++) {
+  echo strval($x)." --> ".strval($x*$x)."<br/>";
+}
 ?>
+
+<br>
+<label for="fname">First name:</label>
+<input type="text" id="fname" name="fname"><br><br>
+
+<label for="cars">Choose a car:</label>
+
+<select name="cars" id="cars">
+  <option value="volvo">Volvo</option>
+  <option value="saab">Chacal</option>
+  <option value="mercedes">Mercedes</option>
+  <option value="audi">Audi</option>
+</select>
 
 </body>
 </html>
